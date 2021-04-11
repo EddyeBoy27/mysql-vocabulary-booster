@@ -6,10 +6,12 @@ SELECT
   ProductName,
   Price
 FROM
-  w3schools.products,
+  w3schools.products
+INNER JOIN
   w3schools.order_details
-WHERE
+ON
   order_details.ProductID = products.ProductID
-  AND order_details.Quantity > 80
+WHERE
+  order_details.Quantity > 80
 ORDER BY
   ProductName;

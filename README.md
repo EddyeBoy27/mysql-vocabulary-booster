@@ -1,14 +1,10 @@
 # Bem vindo ao repositório do projeto Vocabulary Booster
 
-Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo e, se tiver qualquer dúvida, nos envie por Slack! #vqv 🚀
+## O que foi desenvolvido
 
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir desse repositório, utilizando uma branch específica e um Pull Request para colocar seus códigos.
+O projeto com o codinome *Vocabulary Booster*, em que vai explorar diversos novos conceitos sobre SQL.
 
-## O que deverá ser desenvolvido
-
-Hoje você fará um projeto com o codinome *Vocabulary Booster*, em que vai explorar todos os conceitos vistos até o momento sobre SQL.
-
-Os desafios deste projeto foram criados com o intuito de providenciar meios para que você possa praticar a criação de queries mais elaboradas, utilizando, muitas vezes, diferentes comandos em uma mesma query.
+Os desafios deste projeto foram criados com o intuito de providenciar meios para praticar a criação de queries mais elaboradas, utilizando, muitas vezes, diferentes comandos em uma mesma query.
 
 Para te deixar preparado(a) para lidar com qualquer situação, independente da estrutura do banco de dados que esteja utilizando, escolhemos um novo banco para este projeto: o `W3Schools`.
 

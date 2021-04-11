@@ -5,7 +5,9 @@
 
 USE hr;
 
-DELIMITER $ $ CREATE FUNCTION BuscarQuantidadeDeEmpregosPorFuncionario(employee_id int)
+DELIMITER $$
+
+CREATE FUNCTION BuscarQuantidadeDeEmpregosPorFuncionario(employee_id int)
 RETURNS INT READS SQL DATA 
 BEGIN 
 DECLARE 
@@ -17,6 +19,7 @@ FROM
 WHERE
   hr.job_history.employee_id = employee_id INTO full_value;
 RETURN full_value;
-END $ $ DELIMITER;
+END $$
+DELIMITER ;
 SELECT
   BuscarQuantidadeDeEmpregosPorFuncionario(101);
